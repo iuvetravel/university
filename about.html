@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Texas University</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav class="myLinks">
+        <a href="index.html"
+          ><img src="img/logo2.png" alt="Texas State University Logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href=""><strong>About</strong></a>
+            </li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="far fa-caret-square-down" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>About Us</h1>
+        <p>One is an important number at Texas State. There are thousands
+          of us, but we’re united by one shared purpose: to make a
+          positive impact in our world. More than 38,000 undergraduate and
+          graduate students choose from more than 200 bachelor’s, master’s
+          and doctoral degree programs. At Texas State we believe in connecting what you learn here to the world beyond college. With degree programs to prepare you for hundreds of exciting career paths, you will find one that fuels your ambition. And our dedicated faculty will help you gain the experience you need to apply classroom discoveries as you meet real-world challenges. Know what you're looking for? Use our courses list to search for the degree you want to earn at Texas State.</p>
+    </section>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>ARE YOU READY?</h1>
+          <p>
+            As you begin your college experience, we’ll be here each step of the way to help you find the right fit for you and navigate the application process. Please visit our courses section to see how we can help you get the education you deserve. Indulge your curiosity and imagination as you explore hundreds of ways to shape and expand your world. We’ll help you match your interests and ambitions to an academic path that supports your life goals. Texas State is a community of support for your personal health and safety, as well as your academic and professional growth. Creating opportunity through education was our mission when Texas State University was founded more than a century ago.
+          </p>
+          <a href="#" class="hero-btn-about">Explore now!</a>
+        </div>
+        <div class="about-col">
+          <img src="img/about.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="about-us">
+      <div class="row">
+
+        <div class="about-col">
+          <img src="img/student-life-2.jpg" alt="">
+        </div>
+        <div class="about-col">
+          <h1>STUDENT LIFE</h1>
+          <p>
+            This is Texas State! We’ve got the most beautiful campus in Texas and the most welcoming community, too! See why 38,000+ students like you are proud to call this place home. Bobcats are open, active and engaged. Even in extraordinary times, we support each other and share new experiences as we prepare for the future. Our campus and our hometown of San Marcos are alive with opportunities to connect with people and get involved in activities outside of the classroom. Dive into recreational sports, service clubs, academic and faith groups, Greek life and more. 
+          </p>
+          <a href="#" class="hero-btn-about">Explore now!</a>
+        </div>
+        
+      </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>University</h3>
+              <ul>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Research</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Alumni</h3>
+              <ul>
+                <li><a href="#">Student life</a></li>
+                <li><a href="#">Memories</a></li>
+                <li><a href="#">Future Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>Texas State University®</h3>
+              <p>
+                Human beings are complicated, but working to understand them opens up limitless career paths and challenges. You can investigate why and how we create communities, and study our shared histories and our thousands of unique cultures.
+              </p>
+            </div>
+            <div class="col item social">
+              <a href="#"><i class="icon ion-social-facebook"></i></a
+              ><a href="#"><i class="icon ion-social-twitter"></i></a
+              ><a href="#"><i class="icon ion-social-snapchat"></i></a
+              ><a href="#"><i class="icon ion-social-instagram"></i></a>
+            </div>
+          </div>
+          <p class="copyright">Texas State University® 2021</p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript for toggle menu -->
+    <script>
+      let menu = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
