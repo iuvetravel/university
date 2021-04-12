@@ -235,6 +235,17 @@ nav#myLinks {
     text-align: center;
     color: palegoldenrod;
   }
+  .sub-header-contact {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),
+      url("./img/courses11.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: palegoldenrod;
+  }
 }
 
 @media (min-width: 700px) {
@@ -799,7 +810,7 @@ ul {
   margin: auto;
   margin-top: 35px;
   margin-bottom: 35px;
-  padding: 30px 0;
+  padding: 80px 0;
   box-shadow: rgba(87, 28, 32, 0.56) 0px 5px 20px 10px;
 }
 
@@ -843,8 +854,8 @@ ul {
   color: rgb(206, 165, 165);
 }
 
-.contact-col p {
-  color: red;
+.contact-col div p {
+  color: #571c20;
   padding: 0;
 }
 
@@ -867,6 +878,42 @@ ul {
 .contact-col button:hover {
   box-shadow: rgba(87, 28, 32, 0.56) 0px 5px 20px 10px;
 }
+
+.sub-header-contact {
+  height: 100vh;
+  width: auto;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),
+    url("./img/03.jpg");
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: palegoldenrod;
+}
+
+.text-box-contact {
+  width: 90%;
+  color: palegoldenrod;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 100;
+}
+
+.text-box-contact h1 {
+  font-size: 4rem;
+}
+
+.text-box-contact p {
+  margin: 10px 10px;
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+}
+
 /* End Contact Us */
 
 /* End Blog */

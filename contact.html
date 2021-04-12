@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Texas University</title>
+  </head>
+  <body>
+    <section class="sub-header-contact">
+      <nav class="myLinks">
+        <a href="index.html"
+          ><img src="img/logo2.png" alt="Texas State University Logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li>
+              <a href="#"><strong>Contact</strong></a>
+            </li>
+          </ul>
+        </div>
+        <i class="far fa-caret-square-down" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box-contact">
+        <h1>Contact Us</h1>
+        <p>
+          Texas State is where you’ll find a community of achievers continually
+          evolving to reach greatness in all that we do. Immediate use
+          scholarships continue to be a top priority for the university. You can
+          support student scholarships with a gift to the Bobcats to Bobcats
+          Scholarship Fund. This fund is dedicated to helping our students
+          continue their journey at Texas State during these unprecedented
+          times. Thank you for making a difference at Texas State!
+        </p>
+      </div>
+    </section>
+
+    <!-- ---- Contact us section ----- -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3459.162742928356!2d-97.9405396852948!3d29.888410981939334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865ca87036ad24df%3A0x7117159ea740e992!2sTexas%20State%20University!5e0!3m2!1sen!2sro!4v1618233586680!5m2!1sen!2sro"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+    <hr />
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fas fa-home"></i>
+            <span>
+              <h5>601 University Drive, San Marcos</h5>
+              <p>Texas 78666-4684</p>
+            </span>
+          </div>
+          <div>
+            <i class="fas fa-phone"></i>
+            <span>
+              <h5>(+1) 512.245.2111)</h5>
+              <p>Mon - Fri, 10AM to 6PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fas fa-envelope-open-text"></i>
+            <span>
+              <h5>info@texasuniversity</h5>
+              <p>Send us email</p>
+            </span>
+          </div>
+        </div>
+        <hr />
+        <div class="contact-col">
+          <form action="">
+            <input type="text" placeholder="Enter your name" required />
+            <input
+              type="email"
+              placeholder="Enter your Email Address"
+              required
+            />
+            <input type="text" placeholder="Enter your subject" required />
+            <textarea rows="8" placeholder="Enter message" required></textarea>
+            <button type="submit" class="hero-btn">Send Message</button>
+          </form>
+        </div>
+        <hr />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>University</h3>
+              <ul>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Research</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Alumni</h3>
+              <ul>
+                <li><a href="#">Student life</a></li>
+                <li><a href="#">Memories</a></li>
+                <li><a href="#">Future Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>Texas State University®</h3>
+              <p>
+                Human beings are complicated, but working to understand them
+                opens up limitless career paths and challenges. You can
+                investigate why and how we create communities, and study our
+                shared histories and our thousands of unique cultures.
+              </p>
+            </div>
+            <div class="col item social">
+              <a href="#"><i class="icon ion-social-facebook"></i></a
+              ><a href="#"><i class="icon ion-social-twitter"></i></a
+              ><a href="#"><i class="icon ion-social-snapchat"></i></a
+              ><a href="#"><i class="icon ion-social-instagram"></i></a>
+            </div>
+          </div>
+          <p class="copyright">Texas State University® 2021</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- JavaScript for toggle menu -->
+    <script>
+      let menu = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
