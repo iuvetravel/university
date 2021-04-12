@@ -224,6 +224,17 @@ nav#myLinks {
   .blog-left h2 {
     font-size: 1em;
   }
+  .sub-header-courses {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),
+      url("./img/courses11.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: palegoldenrod;
+  }
 }
 
 @media (min-width: 700px) {
@@ -619,7 +630,6 @@ nav#myLinks {
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),
     url("./img/courses1.jpg");
-
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
